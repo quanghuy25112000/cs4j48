@@ -1,0 +1,32 @@
+.flexRow{
+    display:flex;
+    flex-direction: row;
+}
+.js-center{
+    justify-content: center;
+}
+.container{
+    background-color: wheat;
+    align-items: center;
+    justify-content: flex-start;
+}
+.item{
+    
+    background-image: url(https://picsum.photos/200/300);
+    width: 200px;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+.flexColumn{
+    display:flex;
+    flex-direction: column;
+}
+.content{
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 300px;
+    padding: 0px 0px 0px 10px;
+}

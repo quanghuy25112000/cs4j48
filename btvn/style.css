@@ -1,0 +1,56 @@
+#all{
+    margin: auto;
+    margin-top: 20px;
+    
+    padding: 50px;
+    
+    width: 600px;
+    
+}
+.head{
+    display: flex;
+    
+}
+.infor{
+    margin-top: 40px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 170px;
+}
+.major{
+    text-align: center;
+    margin-top: 50px;
+    background-color:dodgerblue;
+    color: aliceblue;
+    font-size: 30px;
+    height: 40px;
+    padding: 10px;
+}
+.row{
+    margin-top: 30px;
+    display: flex;
+}
+.column.left{
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+    
+}
+.column.right{
+    float: right;
+    width: 500px;
+    margin-left: 20px;
+    display: block;
+}
+.img{
+    border: 1px solid black;
+    box-shadow: 10px 10px dodgerblue;
+}
+.table hr{
+    height: 2px;
+    background-color: dodgerblue;
+}
